@@ -82,7 +82,7 @@
         }
         .metrics {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
             gap: 1rem;
             margin-top: 1.5rem;
         }
@@ -125,15 +125,15 @@
             <div class="controls">
                 <div class="control-group">
                     <label>Epistemic Advection (Data Recycling)</label>
-                    <input type="range" id="advection" min="0" max="100" value="85">
+                    <input type="range" id="advection" min="0" max="100" value="85" aria-label="Epistemic Advection (Data Recycling)">
                 </div>
                 <div class="control-group">
                     <label>AACT Groundwater Sparsity</label>
-                    <input type="range" id="sparsity" min="0" max="100" value="92">
+                    <input type="range" id="sparsity" min="0" max="100" value="92" aria-label="AACT Groundwater Sparsity">
                 </div>
                 <div class="control-group">
                     <label>Institutional Coupling</label>
-                    <input type="range" id="coupling" min="0" max="100" value="94">
+                    <input type="range" id="coupling" min="0" max="100" value="94" aria-label="Institutional Coupling">
                 </div>
             </div>
             <div class="metrics">
@@ -148,6 +148,10 @@
                 <div class="metric-box">
                     <div id="cti-val" class="metric-value" style="color: #4cc9f0">0.92</div>
                     <div class="metric-label">Causal Transport Index</div>
+                </div>
+                <div class="metric-box">
+                    <div id="dof-val" class="metric-value">--</div>
+                    <div class="metric-label">Kinetic DoF</div>
                 </div>
             </div>
             </div>
