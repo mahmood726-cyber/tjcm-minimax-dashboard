@@ -1,5 +1,7 @@
 # TJCM 12.0: Topological Jensen-Compensated Meta-Variance
 
+[![ci](https://github.com/mahmood726-cyber/tjcm-minimax-dashboard/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mahmood726-cyber/tjcm-minimax-dashboard/actions/workflows/ci.yml) [![codeql](https://github.com/mahmood726-cyber/tjcm-minimax-dashboard/actions/workflows/codeql.yml/badge.svg?branch=master)](https://github.com/mahmood726-cyber/tjcm-minimax-dashboard/actions/workflows/codeql.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![python: 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+
 Epistemic-minimax & graph-agnostic bound framework for meta-analyses with heavy imputation. Demonstrates a constructive lower bound of evidence (CLBE) that resists synthetic-consensus formation when imputed covariates dominate.
 
 **Live dashboard:** <https://mahmood726-cyber.github.io/tjcm-minimax-dashboard/>
